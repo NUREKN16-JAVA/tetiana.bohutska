@@ -18,10 +18,10 @@ import java.util.Date;
 
 public class HsqldbUserDAOTest extends DatabaseTestCase  {
 
-   HsqldbUserDAO dao;
+   UserDAO dao;
    User user;
    ConnectionFactory connectionFactory;
-
+    private Long id = new Long(1000);
 
     @Override
     protected IDatabaseConnection getConnection() throws Exception {
@@ -39,7 +39,8 @@ public class HsqldbUserDAOTest extends DatabaseTestCase  {
     @Before
 	public void setUp() throws Exception {
         super.setUp();
-		dao = new HsqldbUserDAO(connectionFactory);
+        dao = DaoFactory.getInstance().getUserDAO();
+		//dao = new HsqldbUserDAO(connectionFactory);
 		user = new User("Tanya","Bogutskaya",new Date());
 	}
 
@@ -62,4 +63,33 @@ public class HsqldbUserDAOTest extends DatabaseTestCase  {
         assertNotNull(collection);
         assertEquals(2, collection.size());
 }
+
+    @Test
+    public void testFind(){
+        try{
+            User user = dao.find(id);
+            assertNotNull(user);
+        } catch (DatabaseException e){
+            e.printStackTrace();
+            fail(e.toString());
+        }
+    }
+    @Test
+    public void testUpdate() throws Exception {
+        try {
+            User user = dao.find(id);
+            dao.update(user);
+            User newUser = dao.find(id);
+            assertNotEquals(user, newUser);
+        } catch (DatabaseException e) {
+            e.printStackTrace();
+            fail(e.toString());
+        }
+    }
+    @Test
+    public void testDelete() throws DatabaseException {
+        dao.delete(id);
+        assertEquals(1, dao.findAll().size());
+    }
+
 }
