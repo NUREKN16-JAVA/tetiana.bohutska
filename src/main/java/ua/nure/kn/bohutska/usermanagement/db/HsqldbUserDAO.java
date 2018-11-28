@@ -3,12 +3,16 @@ package ua.nure.kn.bohutska.usermanagement.db;
 import ua.nure.kn.bohutska.usermanagement.User;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
 
 public class HsqldbUserDAO implements UserDAO {
 
     private static final String INSERT_QUERY = "INSERT INTO USERS (FIRSTNAME, LASTNAME, DATEOFBIRTH) VALUES(?, ?, ?)";
+    private static final String SELECT_ALL_QUERY = "SELECT* FROM users";
 
     ConnectionFactory connectionFactory;
     public  HsqldbUserDAO(ConnectionFactory connectionFactory){
@@ -59,8 +63,37 @@ public class HsqldbUserDAO implements UserDAO {
     }
 
     @Override
-    public Collection findAll() throws DatabaseException {
-        return null;
+    public Collection<User> findAll() throws DatabaseException {
+        Collection<User> result = new LinkedList<User>();
+
+        try {
+            Connection connection = connectionFactory.createConnection();
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(SELECT_ALL_QUERY);
+            while(resultSet.next()) {
+                User user = new User();
+                user.setId(new Long(resultSet.getLong(1)));
+                user.setFirstName(resultSet.getString(2));
+                user.setLastName(resultSet.getString(3));
+                user.setDateOfBirth(resultSet.getDate(4));
+                result.add(user);
+                statement.close();
+                connection.close();
+            }
+        } catch (SQLException e) {
+            throw new DatabaseException(e);
+        }
+
+        return result;
+
     }
-    
+    @Override
+    public ConnectionFactory getConnectionFactory() {
+        return connectionFactory;
+    }
+
+    @Override
+    public void setConnectionFactory(ConnectionFactory connectionFactory) {
+        this.connectionFactory = connectionFactory;
+    }
 }

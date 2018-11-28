@@ -6,12 +6,14 @@ import java.sql.SQLException;
 
 public class ConnectionFactoryImpl implements ConnectionFactory {
 
-    private final String driver;
-    private final String url;
-    private final String user;
-    private final String password;
+    private  String driver;
+    private  String url;
+    private  String user;
+    private  String password;
 
-    public ConnectionFactoryImpl(String driver, String url, String user, String password) {
+
+
+    public ConnectionFactoryImpl(final String driver,final String url, final String user,final String password) {
         this.driver = driver;
         this.url = url;
         this.user = user;
