@@ -6,9 +6,7 @@ import java.sql.*;
 import java.util.Collection;
 import java.util.LinkedList;
 
-
-
-public class HsqldbUserDAO implements UserDAO {
+class HsqldbUserDAO implements UserDAO {
 
     private static final String INSERT_QUERY = "INSERT INTO USERS (FIRSTNAME, LASTNAME, DATEOFBIRTH) VALUES(?, ?, ?)";
     private static final String SELECT_ALL_QUERY = "SELECT* FROM users";
