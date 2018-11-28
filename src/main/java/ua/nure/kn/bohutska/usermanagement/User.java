@@ -24,6 +24,10 @@ public class User implements Serializable {
 	public User(String firstName, String lastName, Date dateOfBirth) {
 		this(null, firstName, lastName, dateOfBirth);
 	}
+	
+		public User(User user) { this(user.getId(), user.getFirstName(), user.getLastName(), user.getDateOfBirth()); }
+
+	
 	public Long getId() {
 		return id;
 	}

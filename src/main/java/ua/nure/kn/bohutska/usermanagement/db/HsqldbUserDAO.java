@@ -27,6 +27,7 @@ public class HsqldbUserDAO implements UserDAO {
         if (n != 1) throw new DatabaseException("Numbers of Inserted rows: " + n);
         CallableStatement callableStatement = connection.prepareCall("call IDENTITY()");
         ResultSet keys = callableStatement.executeQuery();
+
         if (keys.next()) {
                 user.setId(keys.getLong(1));
             }
@@ -61,4 +62,5 @@ public class HsqldbUserDAO implements UserDAO {
     public Collection findAll() throws DatabaseException {
         return null;
     }
+    
 }

@@ -17,13 +17,13 @@ public class HsqldbUserDAOTest {
 	@Before
 	public void setUp() throws Exception {
 
-	    connectionFactory = new ConnectionFactoryImpl();
+	    connectionFactory = new ConnectionFactoryImpl("org.hsqldb.jdbcDriver", "jdbc:hsqldb:file:db/usermanagement", "sa", "");
 		dao = new HsqldbUserDAO(connectionFactory);
 		user = new User("Tanya","Bogutskaya",new Date());
 	}
 
 	@Test
-	public void testCreate() {
+	public void testCreate()  {
         try {
             assertNull(user.getId());
             user = dao.create(user);
@@ -34,6 +34,7 @@ public class HsqldbUserDAOTest {
             fail(e.toString());
         }
 
-	}
+    }
+
 
 }
