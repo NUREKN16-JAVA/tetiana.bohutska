@@ -3,10 +3,9 @@ package ua.nure.kn.bohutska.usermanagement.db;
 import ua.nure.kn.bohutska.usermanagement.User;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
-import java.util.List;
+
 
 
 public class HsqldbUserDAO implements UserDAO {
@@ -15,6 +14,9 @@ public class HsqldbUserDAO implements UserDAO {
     private static final String SELECT_ALL_QUERY = "SELECT* FROM users";
 
     ConnectionFactory connectionFactory;
+
+    public HsqldbUserDAO() {}
+
     public  HsqldbUserDAO(ConnectionFactory connectionFactory){
         this.connectionFactory = connectionFactory;
     }
