@@ -12,7 +12,7 @@ public class User implements Serializable {
 	private String firstName;
 	private String lastName;
 	private Date dateOfBirth;
-	
+	public User(){}
 	public User(Long id, String firstName, String lastName,Date dateofBirth) {
       
 		this.id = id;
@@ -21,7 +21,9 @@ public class User implements Serializable {
         this.dateOfBirth = dateofBirth;
         
     }
-	
+	public User(String firstName, String lastName, Date dateOfBirth) {
+		this(null, firstName, lastName, dateOfBirth);
+	}
 	public Long getId() {
 		return id;
 	}
