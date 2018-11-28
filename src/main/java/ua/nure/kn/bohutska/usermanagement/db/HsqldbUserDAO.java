@@ -2,10 +2,7 @@ package ua.nure.kn.bohutska.usermanagement.db;
 
 import ua.nure.kn.bohutska.usermanagement.User;
 
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Collection;
 
 
@@ -28,7 +25,16 @@ public class HsqldbUserDAO implements UserDAO {
 
         int n = statement.executeUpdate();
         if (n != 1) throw new DatabaseException("Numbers of Inserted rows: " + n);
-        return null;
+        CallableStatement callableStatement = connection.prepareCall("call IDENTITY()");
+        ResultSet keys = callableStatement.executeQuery();
+        if (keys.next()) {
+                user.setId(keys.getLong(1));
+            }
+            keys.close();
+            callableStatement.close();
+            statement.close();
+            connection.close();
+            return user;
         }
         catch(DatabaseException e) {throw e;}
         catch (SQLException e) {
