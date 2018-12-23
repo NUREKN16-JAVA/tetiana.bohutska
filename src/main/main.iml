@@ -52,5 +52,259 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-ejb.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-jca.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-jdbc-jdk1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-jdbc.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-jdk1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-jms.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-servlet.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-struts.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-tag.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/cglib-nodep-2.1_2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/commons-beanutils.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/commons-digester.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/commons-logging.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/commons-validator.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/jakarta-oro-2.0.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/jboss-j2ee.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/jdom.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/jsp-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/junit.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/mockejb.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/nekohtml.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/struts.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/xercesImpl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/jar/xml-apis.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

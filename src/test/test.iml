@@ -54,5 +54,14 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/3 курс/Пакеты и плагины для разработки и тестирования веб-приложения-20181223/mockrunner-0.3.6/mockrunner-0.3.6/lib/mockrunner-jdk1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
